@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1554682933758,"sparkVersion":"2.3.2","uid":"VectorAssembler_4867993762effa1b355b","paramMap":{"inputCols":["GRE Score","TOEFL Score","University Rating","SOP","LOR ","CGPA","Research"],"outputCol":"features"}}

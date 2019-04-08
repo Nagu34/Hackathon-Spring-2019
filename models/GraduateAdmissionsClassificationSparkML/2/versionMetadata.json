@@ -1,0 +1,9 @@
+{
+    "description": "This is a SparkML Model to Classify Graduate Admission Chance of admit",
+    "modelVersion": 2,
+    "modifiedAt": 1554682991849,
+    "modifiedBy": "1008",
+    "performanceMetrics": {
+        "accuracy": 0.0
+    }
+}

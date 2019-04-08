@@ -1,0 +1,356 @@
+{
+  "name": "New dashboard",
+  "layout": {
+    "id": "page0",
+    "items": [
+      {
+        "id": "page1",
+        "css": "templateBox aspectRatio_default infoGraphic",
+        "items": [
+          {
+            "id": "page2",
+            "style": {
+              "top": "0%",
+              "left": "0%",
+              "right": "0%",
+              "bottom": "0%"
+            },
+            "type": "templateDropZone",
+            "templateName": "dz1"
+          },
+          {
+            "id": "model00000169fa6ac17e_00000003",
+            "style": {
+              "left": "26.5625%",
+              "top": "16.09375%",
+              "height": "65.625%",
+              "width": "156.25%"
+            },
+            "type": "widget",
+            "relatedLayouts": ""
+          }
+        ],
+        "type": "scalingAbsolute"
+      }
+    ],
+    "type": "container",
+    "templateName": "Infographics1"
+  },
+  "theme": "defaultTheme",
+  "version": 1009,
+  "eventGroups": [
+    {
+      "id": "page1:1",
+      "widgetIds": [
+        "model00000169fa6ac17e_00000003"
+      ]
+    }
+  ],
+  "properties": {
+    "defaultLocale": "Default"
+  },
+  "dataSources": {
+    "version": "1.0",
+    "sources": [
+      {
+        "id": "model00000169fa66d39c_00000001",
+        "assetId": "assetId00000169fa66d39b_00000000",
+        "clientId": "eyJwcm9qZWN0IjoiRmluYWxfcHJvamVjdCIsIm5hbWUiOiJBZG1pc3Npb25fUHJlZGljdCIsInR5cGUiOiJDU1YifQ==",
+        "module": {
+          "identifier": "aAdmission_Predict",
+          "label": "Admission_Predict",
+          "source": {
+            "id": "Admission_Predict",
+            "srcUrl": {
+              "property": [
+                {
+                  "name": "separator",
+                  "value": ","
+                },
+                {
+                  "name": "ColumnNamesLine",
+                  "value": "true"
+                },
+                {
+                  "name": "headers",
+                  "value": [
+                    {
+                      "name": "Authorization",
+                      "value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlYW0xIiwic3ViIjoidGVhbTEiLCJpc3MiOiJLTk9YU1NPIiwiYXVkIjoiRFNYIiwicm9sZSI6IlVzZXIiLCJwZXJtaXNzaW9ucyI6WyJhY2Nlc3NfY2F0YWxvZyIsInZpcnR1YWxpemVfdHJhbnNmb3JtIiwiY2FuX3Byb3Zpc2lvbiIsIm1hbmFnZV9jYXRhbG9nIiwibWFuYWdlX3BvbGljaWVzIiwiYWNjZXNzX3BvbGljaWVzIiwiZGVwbG95bWVudF9hZG1pbiJdLCJ1aWQiOiIxMDA4IiwiZGlzcGxheV9uYW1lIjoiVGVhbTEiLCJpYXQiOjE1NTQ2NzkyNDUsImV4cCI6MTU1NDcyMjQ0NX0.bpFWqA_nuZC8yipssz22UyVtIwKHVzZGMukAfNCDrKjoWpDLm-WXr9zYKPoCg4AnSIuP4B3XG4eK8SlY7O3LBtU-_ffBPh4wvJS2zhTJ5xK74f5Pka4fO8RM4q0tL2Kw2WoPAuTDyXBIHZ4jcRKE6_3CqWYivix6n1PuUvbk2JWCxOfl-omU235smiTvjsEl8Luul73i87hJpM_f3f8veehcNnKCTjZSG7xdqi5QWyay9DB9RPZ1SJUk4AOZKWcoPpWOlpi3om2WCxxZZKPJgw77P374hMsbFQFJ10G8MpDSaF8WGCOp89GQMb9_3w3z6TpvVwtpNvwSYT0w89wuzw"
+                    }
+                  ]
+                }
+              ],
+              "sourceUrl": "http://dsx-core-svc:3000/v3/project/Final_project/asset/Admission_Predict.csv/download"
+            }
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "BIGINT",
+                "description": "Serial No.",
+                "label": "Serial No.",
+                "name": "aSerial_No.",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "GRE Score",
+                "label": "GRE Score",
+                "name": "aGRE_Score",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "TOEFL Score",
+                "label": "TOEFL Score",
+                "name": "aTOEFL_Score",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "University Rating",
+                "label": "University Rating",
+                "name": "aUniversity_Rating",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "SOP",
+                "label": "SOP",
+                "name": "aSOP",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "LOR ",
+                "label": "LOR ",
+                "name": "aLOR_",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "CGPA",
+                "label": "CGPA",
+                "name": "aCGPA",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "Research",
+                "label": "Research",
+                "name": "aResearch",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "Chance of Admit ",
+                "label": "Chance of Admit ",
+                "name": "aChance_of_Admit_",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              }
+            ],
+            "name": "AdmissionPredict"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "Admission_Predict",
+        "shaping": {
+          "embeddedModuleUpToDate": true
+        }
+      },
+      {
+        "id": "model00000169fa69f3fb_00000002",
+        "assetId": "assetId00000169fa69f3fb_00000000",
+        "clientId": "eyJwcm9qZWN0IjoiRmluYWxfcHJvamVjdCIsIm5hbWUiOiJHcmFkdWF0ZUFkbWlzc2lvbnNTcGFya01MRXZhbCIsInR5cGUiOiJDU1YifQ==",
+        "module": {
+          "identifier": "aGraduateAdmissionsSparkMLEval",
+          "label": "GraduateAdmissionsSparkMLEval",
+          "source": {
+            "id": "GraduateAdmissionsSparkMLEval",
+            "srcUrl": {
+              "property": [
+                {
+                  "name": "separator",
+                  "value": ","
+                },
+                {
+                  "name": "ColumnNamesLine",
+                  "value": "true"
+                },
+                {
+                  "name": "headers",
+                  "value": [
+                    {
+                      "name": "Authorization",
+                      "value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlYW0xIiwic3ViIjoidGVhbTEiLCJpc3MiOiJLTk9YU1NPIiwiYXVkIjoiRFNYIiwicm9sZSI6IlVzZXIiLCJwZXJtaXNzaW9ucyI6WyJhY2Nlc3NfY2F0YWxvZyIsInZpcnR1YWxpemVfdHJhbnNmb3JtIiwiY2FuX3Byb3Zpc2lvbiIsIm1hbmFnZV9jYXRhbG9nIiwibWFuYWdlX3BvbGljaWVzIiwiYWNjZXNzX3BvbGljaWVzIiwiZGVwbG95bWVudF9hZG1pbiJdLCJ1aWQiOiIxMDA4IiwiZGlzcGxheV9uYW1lIjoiVGVhbTEiLCJpYXQiOjE1NTQ2NzkyNDUsImV4cCI6MTU1NDcyMjQ0NX0.bpFWqA_nuZC8yipssz22UyVtIwKHVzZGMukAfNCDrKjoWpDLm-WXr9zYKPoCg4AnSIuP4B3XG4eK8SlY7O3LBtU-_ffBPh4wvJS2zhTJ5xK74f5Pka4fO8RM4q0tL2Kw2WoPAuTDyXBIHZ4jcRKE6_3CqWYivix6n1PuUvbk2JWCxOfl-omU235smiTvjsEl8Luul73i87hJpM_f3f8veehcNnKCTjZSG7xdqi5QWyay9DB9RPZ1SJUk4AOZKWcoPpWOlpi3om2WCxxZZKPJgw77P374hMsbFQFJ10G8MpDSaF8WGCOp89GQMb9_3w3z6TpvVwtpNvwSYT0w89wuzw"
+                    }
+                  ]
+                }
+              ],
+              "sourceUrl": "http://dsx-core-svc:3000/v3/project/Final_project/asset/GraduateAdmissionsSparkMLEval.csv/download"
+            }
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "BIGINT",
+                "description": "GRE Score",
+                "label": "GRE Score",
+                "name": "aGRE_Score",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "TOEFL Score",
+                "label": "TOEFL Score",
+                "name": "aTOEFL_Score",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "University Rating",
+                "label": "University Rating",
+                "name": "aUniversity_Rating",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "SOP",
+                "label": "SOP",
+                "name": "aSOP",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "LOR ",
+                "label": "LOR ",
+                "name": "aLOR_",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "CGPA",
+                "label": "CGPA",
+                "name": "aCGPA",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "Research",
+                "label": "Research",
+                "name": "aResearch",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "BIGINT",
+                "description": "Chance of Admit ",
+                "label": "Chance of Admit ",
+                "name": "aChance_of_Admit_",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              }
+            ],
+            "name": "GraduateAdmissionsSparkMLEval"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "GraduateAdmissionsSparkMLEval",
+        "shaping": {
+          "embeddedModuleUpToDate": true
+        }
+      }
+    ]
+  },
+  "pageContext": [],
+  "drillThrough": [],
+  "widgets": {
+    "model00000169fa6ac17e_00000003": {
+      "id": "model00000169fa6ac17e_00000003",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model00000169fa66d39c_00000001",
+            "dataItems": [
+              {
+                "id": "model00000169fa6ac17e_00000000",
+                "itemId": "AdmissionPredict.aGRE_Score",
+                "itemLabel": "GRE Score"
+              }
+            ],
+            "id": "model00000169fa6ac17e_00000001"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "color",
+            "dataItems": [
+              "model00000169fa6ac17e_00000000"
+            ],
+            "caption": "Heat",
+            "id": "color",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "com.ibm.vis.rave2heat"
+    }
+  }
+}

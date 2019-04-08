@@ -1,0 +1,44 @@
+[
+  {
+    "args": [],
+    "author": "1008",
+    "dateCreated": 1554683105,
+    "displayName": "GraduateAdmissionsClassificationSparkML-1554683075281",
+    "env": [
+      "SPARK_VERSION=2.3"
+    ],
+    "fileName": "GraduateAdmissionsClassificationSparkML-model-evaluation-1554683075280.py",
+    "jobId": "b8ae22cf0eaf6631",
+    "jobName": "graduateadmissionsclassificationsparkml-1554683075281",
+    "mainScript": [
+      "/opt/conda/bin/python",
+      "scripts/GraduateAdmissionsClassificationSparkML-model-evaluation-1554683075280.py"
+    ],
+    "remoteOptions": [],
+    "runtimeEnvironment": "dsx-scripted-ml-python36",
+    "scheduleDescription": "On demand",
+    "targetHost": "",
+    "type": "Model evaluation"
+  },
+  {
+    "args": [],
+    "author": "1008",
+    "dateCreated": 1554683979,
+    "displayName": "GraduateAdmissionsClassificationSparkML-1554683950188",
+    "env": [
+      "SPARK_VERSION=2.3"
+    ],
+    "fileName": "GraduateAdmissionsClassificationSparkML-model-evaluation-1554683950187.py",
+    "jobId": "740680290a119716",
+    "jobName": "graduateadmissionsclassificationsparkml-1554683950188",
+    "mainScript": [
+      "/opt/conda/bin/python",
+      "scripts/GraduateAdmissionsClassificationSparkML-model-evaluation-1554683950187.py"
+    ],
+    "remoteOptions": [],
+    "runtimeEnvironment": "dsx-scripted-ml-python36",
+    "scheduleDescription": "On demand",
+    "targetHost": "",
+    "type": "Model evaluation"
+  }
+]

@@ -1,0 +1,61 @@
+{
+    "algorithm": "PipelineModel",
+    "algorithmType": "Classification",
+    "author": "1008",
+    "createdAt": 1554682931712,
+    "features": [
+        {
+            "name": "GRE Score",
+            "sample": 311,
+            "type": "int"
+        },
+        {
+            "name": "TOEFL Score",
+            "sample": 104,
+            "type": "int"
+        },
+        {
+            "name": "University Rating",
+            "sample": 3,
+            "type": "int"
+        },
+        {
+            "name": "SOP",
+            "sample": 3,
+            "type": "int"
+        },
+        {
+            "name": "LOR ",
+            "sample": 2,
+            "type": "int"
+        },
+        {
+            "name": "CGPA",
+            "sample": 8,
+            "type": "int"
+        },
+        {
+            "name": "Research",
+            "sample": 1,
+            "type": "int"
+        }
+    ],
+    "id": 1554682931712,
+    "isPublished": false,
+    "labelColumns": [
+        {
+            "name": "Chance of Admit ",
+            "type": "int"
+        }
+    ],
+    "latestModelVersion": 2,
+    "learningType": "Supervised",
+    "name": "GraduateAdmissionsClassificationSparkML",
+    "params": {},
+    "publishedBy": "",
+    "publishedModelVersion": -1,
+    "runtime": "Python36",
+    "serialization": "spark",
+    "source": "",
+    "type": "spark-2.3"
+}

@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1554682992878,"sparkVersion":"2.3.2","uid":"StringIndexer_4031b290ac2755ff877b","paramMap":{"inputCol":"Chance of Admit ","outputCol":"label","handleInvalid":"error","stringOrderType":"frequencyDesc"}}
